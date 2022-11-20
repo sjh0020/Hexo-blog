@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Python+VS Code安装 | SJH-Hexo-Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="写在前面Python是一个优秀的用作自动化的一门编程语言，而VS code则是一个好用的较轻量的代码编辑器，配合插件食用更是能把体验提升一个档次。为防止有人要抬杠说VS code有2~300mb不够轻量，这里我的比较对象是VS(visual studio)这个动辄几十G的玩意，追求轻量级的请百度搜索sublime相关教程。但是Notepad++和sublime可以作为一个好用的记事本，是时候抛弃W">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python+VS Code安装">
+<meta property="og:url" content="https://github.com/sjh0020/Hexo-blog/2022/11/20/Python-VS-Code%E5%AE%89%E8%A3%85/">
+<meta property="og:site_name" content="SJH-Hexo-Blog">
+<meta property="og:description" content="写在前面Python是一个优秀的用作自动化的一门编程语言，而VS code则是一个好用的较轻量的代码编辑器，配合插件食用更是能把体验提升一个档次。为防止有人要抬杠说VS code有2~300mb不够轻量，这里我的比较对象是VS(visual studio)这个动辄几十G的玩意，追求轻量级的请百度搜索sublime相关教程。但是Notepad++和sublime可以作为一个好用的记事本，是时候抛弃W">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221120/Python-HomePage.4sb5epae7mg0.webp">
+<meta property="og:image" content="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221117/Python-Setup-select-user.37oqxy3flfu0.webp">
+<meta property="og:image" content="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221117/Python-Optional-Features.9dju562bv0o.webp">
+<meta property="article:published_time" content="2022-11-20T08:20:41.000Z">
+<meta property="article:modified_time" content="2022-11-20T08:23:08.331Z">
+<meta property="article:author" content="SJH">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221120/Python-HomePage.4sb5epae7mg0.webp">
+  
+    <link rel="alternate" href="/Hexo-blog/atom.xml" title="SJH-Hexo-Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/Hexo-blog/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/Hexo-blog/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/Hexo-blog/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/Hexo-blog/" id="logo">SJH-Hexo-Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/Hexo-blog/">Home</a>
+        
+          <a class="main-nav-link" href="/Hexo-blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/Hexo-blog/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://github.com/sjh0020/Hexo-blog"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Python-VS-Code安装" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/Hexo-blog/2022/11/20/Python-VS-Code%E5%AE%89%E8%A3%85/" class="article-date">
+  <time class="dt-published" datetime="2022-11-20T08:20:41.000Z" itemprop="datePublished">2022-11-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Python+VS Code安装
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>Python是一个优秀的用作自动化的一门编程语言，而VS code则是一个好用的较轻量的代码编辑器，配合插件食用更是能把体验提升一个档次。<br>为防止有人要抬杠说VS code有2~300mb不够轻量，这里我的比较对象是VS(visual studio)这个动辄几十G的玩意，追求轻量级的请百度搜索sublime相关教程。但是<a href="https://github.com/notepad-plus-plus/notepad-plus-plus/releases">Notepad++</a>和<a target="_blank" rel="noopener" href="https://www.sublimetext.com/download">sublime</a>可以作为一个好用的记事本，是时候抛弃Windows系统自带的记事本了「笑」</p>
+<h1 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h1><p>这里我选择了先安装Python，方便后面VS code安装插件提示找不到Python路径 (其实影响并不大)</p>
+<h2 id="下载Python安装包"><a href="#下载Python安装包" class="headerlink" title="下载Python安装包"></a>下载Python安装包</h2><p>首先进入<a target="_blank" rel="noopener" href="https://www.python.org/">官网</a>，选择Download，直接点击Python3.11.0这个按钮进行下载，或这个<a target="_blank" rel="noopener" href="https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe">官方下载链接</a>进行下载<br><img src="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221120/Python-HomePage.4sb5epae7mg0.webp" alt="Python官网主页面"></p>
+<h2 id="安装Python-1"><a href="#安装Python-1" class="headerlink" title="安装Python"></a>安装Python</h2><p>找到下载完的文件，双击运行，稍等一会，看到下面的界面就可以开始愉快进行安装啦~<br><img src="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221117/Python-Setup-select-user.37oqxy3flfu0.webp" alt="Python选择安装用户界面"><br>这里选择Customize install（自定义安装）<br>小孩子才做选择，大人全都要:dog:<br><br>具体每个选项意思：<br><br>第一个就是字面意思的文档啦，必选，方便vs code内查看说明<br><br>第二个必选，用于安装库（别人写好的集合了很多方法的文件，可以直接拿来用不用自己从零实现）<br></p>
+<p><img src="https://cdn.staticaly.com/gh/sjh0020/picture@master/20221117/Python-Optional-Features.9dju562bv0o.webp" alt="安装文件选项"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.com/sjh0020/Hexo-blog/2022/11/20/Python-VS-Code%E5%AE%89%E8%A3%85/" data-id="clap3nf4k00001kbhau8z8eic" data-title="Python+VS Code安装" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/Hexo-blog/2022/11/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/Hexo-blog/archives/2022/11/">十一月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/Hexo-blog/2022/11/20/Python-VS-Code%E5%AE%89%E8%A3%85/">Python+VS Code安装</a>
+          </li>
+        
+          <li>
+            <a href="/Hexo-blog/2022/11/20/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 SJH<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/Hexo-blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/Hexo-blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/Hexo-blog/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/Hexo-blog/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/Hexo-blog/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
