@@ -1,3 +1,9 @@
+---
+title: Python+VS Code安装
+date: 2022-11-20 16:20:41
+tags:
+---
+
 # 写在前面
 Python是一个优秀的用作自动化的一门编程语言，而VS code则是一个好用的较轻量的代码编辑器，配合插件食用更是能把体验提升一个档次。<br>为防止有人要抬杠说VS code有2~300mb不够轻量，这里我的比较对象是VS(visual studio)这个动辄几十G的玩意，追求轻量级的请百度搜索sublime相关教程。但是[Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus/releases)和[sublime](https://www.sublimetext.com/download)可以作为一个好用的记事本，是时候抛弃Windows系统自带的记事本了「笑」
 
